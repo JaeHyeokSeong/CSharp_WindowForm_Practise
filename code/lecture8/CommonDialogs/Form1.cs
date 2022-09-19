@@ -39,5 +39,13 @@ namespace CommonDialogs
                 sw.Close();
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            // this buttion opens the form2
+            Form2 form2 = new Form2();
+            form2.ShowDialog(); // Modal dialog
+            form2.Dispose(); // optional for using a Dispose(), but in order to make a strong program
+        }
     }
 }
