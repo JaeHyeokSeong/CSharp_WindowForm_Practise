@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBox_Buttons", "MessageBox_Buttons\MessageBox_Buttons.csproj", "{453E46CF-5410-4412-B6D7-FAF5129EFBCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageBox_Buttons", "MessageBox_Buttons\MessageBox_Buttons.csproj", "{453E46CF-5410-4412-B6D7-FAF5129EFBCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonDialogs", "CommonDialogs\CommonDialogs.csproj", "{4D64DDDE-DA43-4A04-8543-4E524239D6F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonDialogs", "CommonDialogs\CommonDialogs.csproj", "{4D64DDDE-DA43-4A04-8543-4E524239D6F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogPractise1", "DialogPractise1\DialogPractise1.csproj", "{F53FC145-1E9E-4549-ABCB-48C1AABABE8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogPractise1-1", "DialogPractise1-1\DialogPractise1-1.csproj", "{36E4B99E-3530-42D8-BF48-E275486D3566}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{4D64DDDE-DA43-4A04-8543-4E524239D6F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D64DDDE-DA43-4A04-8543-4E524239D6F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D64DDDE-DA43-4A04-8543-4E524239D6F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F53FC145-1E9E-4549-ABCB-48C1AABABE8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F53FC145-1E9E-4549-ABCB-48C1AABABE8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F53FC145-1E9E-4549-ABCB-48C1AABABE8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F53FC145-1E9E-4549-ABCB-48C1AABABE8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36E4B99E-3530-42D8-BF48-E275486D3566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E4B99E-3530-42D8-BF48-E275486D3566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E4B99E-3530-42D8-BF48-E275486D3566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E4B99E-3530-42D8-BF48-E275486D3566}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

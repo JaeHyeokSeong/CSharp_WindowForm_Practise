@@ -47,5 +47,10 @@ namespace CommonDialogs
             form2.ShowDialog(); // Modal dialog
             form2.Dispose(); // optional for using a Dispose(), but in order to make a strong program
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
