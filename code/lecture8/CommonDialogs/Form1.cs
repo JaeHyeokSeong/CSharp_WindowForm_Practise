@@ -25,14 +25,17 @@ namespace CommonDialogs
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Stream stream;
             if(saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 // Reference: https://dailycoding-diary.tistory.com/35
-                string str = saveFileDialog1.FileName;
+                /*string str = saveFileDialog1.FileName;
                 StreamWriter sw = new StreamWriter(str, false, System.Text.Encoding.Default);
                 sw.Write(richTextBox1.Text);
                 sw.Flush();
+                sw.Close();*/
+                FileStream fs = new FileStream(saveFileDialog1.FileName, FileMode.Create);
+                StreamWriter sw = new StreamWriter(fs);
+                sw.Write(richTextBox1.Text);
                 sw.Close();
             }
         }
